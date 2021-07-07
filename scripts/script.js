@@ -130,11 +130,23 @@ try {
 
     window.addEventListener('hashchange', () => {
         hash = location.hash.substring(1);
-        getGoods(renderGoodsList, hash);
+        getGoods(renderGoodsList, hash);      
     })
 
     getGoods(renderGoodsList, hash);
 
 } catch (err) {
     console.warn(err)
-}
+};
+
+let goodsTitle = document.querySelector('.goods__title');
+let navigationLink = document.querySelectorAll('.navigation__link');
+
+goodsTitle.textContent = localStorage.getItem('category');
+
+    navigationLink.forEach(value => {   
+        value.addEventListener('click', () => {
+            goodsTitle.textContent = value.textContent;
+            localStorage.setItem('category', goodsTitle.textContent);
+        });
+    });
