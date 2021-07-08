@@ -1,10 +1,9 @@
-[
-    {
+[{
         "id": "092C04C4",
         "category": "women",
         "brand": "Eazyway",
         "name": "Тайтсы",
-        "cost": 2890,
+        "cost": 20,
         "color": [
             "Черный/Черный",
             "Черный/Красный"
@@ -22,7 +21,7 @@
         "category": "women",
         "brand": "New Balance",
         "name": "Леггинсы NB Essentials Botanical Legging",
-        "cost": 2999,
+        "cost": 99,
         "sizes": [
             "40/42",
             "42/44",
@@ -38,7 +37,7 @@
         "category": "women",
         "brand": "Dali",
         "name": "Джинсы",
-        "cost": 3199,
+        "cost": 23,
         "sizes": [
             "40/42",
             "42",
@@ -55,7 +54,7 @@
         "category": "women",
         "brand": "Dali",
         "name": "Джинсы",
-        "cost": 3599,
+        "cost": 67,
         "color": [
             "Мультиколор",
             "Голубой"
@@ -73,7 +72,7 @@
         "category": "women",
         "brand": "Max&Co",
         "name": "Пальто JET",
-        "cost": 38900,
+        "cost": 89,
         "color": [
             "Черный",
             "Бежевый"
@@ -93,7 +92,7 @@
         "category": "women",
         "brand": "Euros Style",
         "name": "Куртка джинсовая",
-        "cost": 4500,
+        "cost": 45,
         "sizes": [
             "42/46"
         ],
@@ -105,7 +104,7 @@
         "category": "women",
         "brand": "Love Republic",
         "name": "Жакет",
-        "cost": 4599,
+        "cost": 90,
         "sizes": [
             "40",
             "42",
@@ -121,7 +120,7 @@
         "category": "women",
         "brand": "Sashyou",
         "name": "Жакет",
-        "cost": 8900,
+        "cost": 89,
         "sizes": [
             "40/42",
             "42/44",
@@ -138,7 +137,7 @@
         "category": "women",
         "brand": "Adidas",
         "name": "Костюм спортивный W TS CO ENERGIZ",
-        "cost": 7999,
+        "cost": 77,
         "sizes": [
             "40/42",
             "42/44",
@@ -154,7 +153,7 @@
         "category": "women",
         "brand": "Joymiss",
         "name": "Костюм спортивный",
-        "cost": 8800,
+        "cost": 88,
         "sizes": [
             "42",
             "44",
@@ -169,7 +168,7 @@
         "category": "women",
         "brand": "Fors",
         "name": "Топ",
-        "cost": 3950,
+        "cost": 32,
         "sizes": [
             "40/42",
             "42/44",
@@ -184,7 +183,7 @@
         "category": "women",
         "brand": "Befree",
         "name": "Топ Exclusive online",
-        "cost": 599,
+        "cost": 59,
         "color": [
             "Черный",
             "Белый",
@@ -207,7 +206,7 @@
         "category": "men",
         "brand": "Avirex",
         "name": "Шорты",
-        "cost": 8499,
+        "cost": 89,
         "color": [
             "Бежевый",
             "Серый",
@@ -229,7 +228,7 @@
         "category": "men",
         "brand": "O'stin",
         "name": "Куртка",
-        "cost": 3999,
+        "cost": 39,
         "sizes": [
             "44/46",
             "48",
@@ -244,7 +243,7 @@
         "category": "men",
         "brand": "Brave Soul",
         "name": "Футболка",
-        "cost": 899,
+        "cost": 99,
         "sizes": [
             "46/48",
             "48/50",
@@ -260,7 +259,7 @@
         "category": "men",
         "brand": "Adidas",
         "name": "Брюки спортивные M SL FL TC PT",
-        "cost": 3399,
+        "cost": 33,
         "sizes": [
             "40/42",
             "44/46",
@@ -277,7 +276,7 @@
         "category": "men",
         "brand": "EA7",
         "name": "Брюки спортивные",
-        "cost": 10999,
+        "cost": 10,
         "color": [
             "Синий",
             "Черный",
@@ -299,7 +298,7 @@
         "category": "men",
         "brand": "Oodji",
         "name": "Рубашка",
-        "cost": 999,
+        "cost": 9,
         "sizes": [
             "46/48",
             "48/50",
@@ -315,7 +314,7 @@
         "category": "men",
         "brand": "Brave Soul",
         "name": "Рубашка",
-        "cost": 1799,
+        "cost": 17,
         "sizes": [
             "46/48",
             "48/50",
@@ -330,7 +329,7 @@
         "category": "men",
         "brand": "Красная Жара",
         "name": "Шляпа",
-        "cost": 1090,
+        "cost": 19,
         "photo": "MP002XM0MT2L_12444872_9_v1.jpg",
         "preview": "MP002XM0MT2L_12444872_9_v2.jpg"
     },
@@ -339,7 +338,7 @@
         "category": "kids",
         "brand": "PlayToday",
         "name": "Шляпа",
-        "cost": 899,
+        "cost": 89,
         "sizes": [
             "50",
             "52"
@@ -352,7 +351,7 @@
         "category": "kids",
         "brand": "Acoola",
         "name": "Шорты джинсовые",
-        "cost": 799,
+        "cost": 79,
         "sizes": [
             "98",
             "104",
@@ -369,7 +368,7 @@
         "category": "kids",
         "brand": "O'stin",
         "name": "Шорты",
-        "cost": 599,
+        "cost": 59,
         "sizes": [
             "128",
             "134",
@@ -386,7 +385,7 @@
         "category": "kids",
         "brand": "Name It",
         "name": "Куртка",
-        "cost": 3399,
+        "cost": 33,
         "sizes": [
             "80",
             "86",
@@ -403,7 +402,7 @@
         "category": "kids",
         "brand": "PlayToday",
         "name": "Джинсы",
-        "cost": 2399,
+        "cost": 23,
         "sizes": [
             "98",
             "104",
@@ -419,7 +418,7 @@
         "category": "kids",
         "brand": "Acoola",
         "name": "Джинсы",
-        "cost": 1999,
+        "cost": 12,
         "sizes": [
             "134",
             "140",
@@ -436,7 +435,7 @@
         "category": "kids",
         "brand": "Acoola",
         "name": "Футболка",
-        "cost": 399,
+        "cost": 34,
         "sizes": [
             "98",
             "104",
@@ -453,7 +452,7 @@
         "category": "kids",
         "brand": "Koton",
         "name": "Платье",
-        "cost": 599,
+        "cost": 57,
         "sizes": [
             "98/104",
             "104/110",
@@ -470,7 +469,7 @@
         "category": "kids",
         "brand": "Acoola",
         "name": "Платье",
-        "cost": 1299,
+        "cost": 12,
         "sizes": [
             "98",
             "104",
@@ -487,7 +486,7 @@
         "category": "kids",
         "brand": "RoxyFoxy",
         "name": "Платье",
-        "cost": 1090,
+        "cost": 13,
         "sizes": [
             "98",
             "104",
