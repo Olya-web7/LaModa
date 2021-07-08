@@ -168,11 +168,10 @@ try {
     const cardGoodSizesList = document.querySelector('.card-good__sizes-list');
     const cardGoodBuy = document.querySelector('.card-good__buy');
 
-    const generateList = () => {
+    const generateList = data => data.reduce((html, item, i) => html + 
+        `<li class="card-good__select-item" data-id="${i}">${item}</li>`, '');
 
-    }
-
-    const renderCardGood = ([{brand, name, post, color, sizes, photo}]) => {
+    const renderCardGood = ([{brand, name, cost, color, sizes, photo}]) => {
         cardGoodImage.src = `goods-image/${photo}`;
         cardGoodImage.alt = `${brand} ${name}`;
         cardGoodBrand.textContent = brand;
@@ -180,6 +179,7 @@ try {
         cardGoodPrice.textContent = `${cost} EUR`;        
         if (color) {
             cardGoodColor.textContent = color[0];
+            cardGoodColor.dataset.id = 0;
             cardGoodColorList.innerHTML = generateList(color);
         } else {
             cardGoodColor.style.display = 'none';
@@ -187,13 +187,14 @@ try {
 
         if(sizes) {
             cardGoodSizes.textContent = sizes[0];
+            cardGoodSizes.dataset.id = 0;
             cardGoodSizesList.innerHTML = generateList(sizes);
         } else {
             cardGoodSizes.style.display = 'none';
         }
     };
 
-    carGgoodSelectWrapper.forEach(item => {
+    cardgoodSelectWrapper.forEach(item => {
         item.addEventListener('click', e => {
             const target = e.target;
             
@@ -203,11 +204,13 @@ try {
 
             if (target.closest('.card-good__select-item')) {
                 const cardGoddSelect = item.querySelector('.card-good__select');
+                cardGoddSelect.textContent = target.textContent;
+                cardGoddSelect.dataset.id = target.dataset.id;
                 cardGoddSelect.classList.remove('card-good__select__open');
             }
 
-        })
-    })
+        });
+    });
 
     getGoods(renderCardGood, 'id', hash)
 } catch (err) {
