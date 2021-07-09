@@ -1,4 +1,5 @@
 const headerCityButton = document.querySelector('.header__city-button');
+
 let hash = location.hash.substring(1);
 
 const updateLocation = () => {
@@ -19,6 +20,9 @@ headerCityButton.addEventListener('click', () => {
 });
 updateLocation();
 
+
+const getLocalStorage = () => JSON.parse(localStorage.getItem('cart-lomoda')) || [];
+const setLocalStorage = data => localStorage.setItem('cart-lomoda', JSON.stringify(data));
 //scroll block
 const disableScroll = () => {
     const widthScroll = window.innerWidth - document.body.offsetWidth;
@@ -162,7 +166,7 @@ try {
     const cardGoodTitle = document.querySelector('.card-good__title');
     const cardGoodPrice = document.querySelector('.card-good__price');
     const cardGoodColor = document.querySelector('.card-good__color');
-    const carGgoodSelectWrapper = document.querySelectorAll('.card-good__select__wrapper');
+    const cardGoodSelectWrapper = document.querySelectorAll('.card-good__select__wrapper');
     const cardGoodColorList = document.querySelector('.card-good__color-list');
     const cardGoodSizes = document.querySelector('.card-good__sizes');
     const cardGoodSizesList = document.querySelector('.card-good__sizes-list');
@@ -194,7 +198,7 @@ try {
         }
     };
 
-    cardgoodSelectWrapper.forEach(item => {
+    cardGoodSelectWrapper.forEach(item => {
         item.addEventListener('click', e => {
             const target = e.target;
             
